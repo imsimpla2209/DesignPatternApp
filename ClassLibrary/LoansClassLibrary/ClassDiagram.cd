@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LoansClassLibrary.CalculatingSevice.InterestRateImplement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CalculatingSevice\InterestRateImplement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.CalculatingSevice.LiabilityCalculator" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>CalculatingSevice\LiabilityCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.CalculatingSevice.PrepaymentCalcularor" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CalculatingSevice\PrepaymentCalcularor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.Class1" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.Client.Bank" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAEAAoAAAYAAAAEAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Client\Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.Client.Enum" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Client\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.Client.Helper" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Client\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.Client.Item" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAACACAAAAAAAAAAA=</HashCode>
+      <FileName>Client\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.Client.User" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAAAAAAAABAEIEAAAEQgBAACAEAAAAAEAAAAgAQ=</HashCode>
+      <FileName>Client\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.ConcreteLoans.HotLoans" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteLoans\HotLoans.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.ConcreteLoans.InstalmentLoans" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAkAAAACAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteLoans\InstalmentLoans.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.ConcreteLoans.Loans" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAIAAAAAAAEAACAAACAEAEAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteLoans\Loans.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.ConcreteLoans.MortgageLoans" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAAAAEAAAA=</HashCode>
+      <FileName>ConcreteLoans\MortgageLoans.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.ConcreteLoans.OverdraftLoans" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEAgAA=</HashCode>
+      <FileName>ConcreteLoans\OverdraftLoans.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.ConcreteLoans.UnsecuredLoans" Collapsed="true">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteLoans\UnsecuredLoans.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.LoansFactory.HotLoansFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoansFactory\HotLoansFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoansClassLibrary.LoansFactory.InstalmentLoansFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoansFactory\InstalmentLoansFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoansClassLibrary.LoansFactory.MortgageLoansFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoansFactory\MortgageLoansFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoansClassLibrary.LoansFactory.OverdraftLoansFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoansFactory\OverdraftLoansFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoansClassLibrary.LoansFactory.UnsecuredLoansFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoansFactory\UnsecuredLoansFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoansClassLibrary.PrestigeChecker.AutomaticChecker" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAACAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreditChecker\AutomaticChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.PrestigeChecker.CheckerService" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreditChecker\CheckerService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoansClassLibrary.PrestigeChecker.ComplexPrestigeChecker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrestigeChecker\ComplexPrestigeChecker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoansClassLibrary.PrestigeChecker.FastPrestigeChecker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrestigeChecker\FastPrestigeChecker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="LoansClassLibrary.LoansFactory.ILoanFactory" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoansFactory\ILoanFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LoansClassLibrary.PrestigeChecker.IPrestigeChecker" Collapsed="true">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrestigeChecker\IPrestigeChecker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="LoansClassLibrary.Client.StatusType" Collapsed="true">
+    <Position X="17" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Client\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LoansClassLibrary.Client.CreditType" Collapsed="true">
+    <Position X="15.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Client\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LoansClassLibrary.Client.LoanType" Collapsed="true">
+    <Position X="13.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAIAAAAIAAAAAAAAAEAAAAAAE=</HashCode>
+      <FileName>Client\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

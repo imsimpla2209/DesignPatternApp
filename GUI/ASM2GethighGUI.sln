@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASM2GethighGUI", "ASM2GethighGUI.csproj", "{7F407008-2D0B-4E40-86ED-4BB501C7D22D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoansClassLibrary", "..\Asm2APOK\LoansClassLibrary\LoansClassLibrary.csproj", "{80CC5C59-852A-4541-8FDF-7078BBA1A95C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F407008-2D0B-4E40-86ED-4BB501C7D22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F407008-2D0B-4E40-86ED-4BB501C7D22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F407008-2D0B-4E40-86ED-4BB501C7D22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F407008-2D0B-4E40-86ED-4BB501C7D22D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CC5C59-852A-4541-8FDF-7078BBA1A95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CC5C59-852A-4541-8FDF-7078BBA1A95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CC5C59-852A-4541-8FDF-7078BBA1A95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CC5C59-852A-4541-8FDF-7078BBA1A95C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A1CBFB6-721D-48B4-8868-09BD9FC71173}
+	EndGlobalSection
+EndGlobal

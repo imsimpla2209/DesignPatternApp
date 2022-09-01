@@ -1,0 +1,114 @@
+#define BLYNK_TEMPLATE_ID "TMPLE59I65eJ"
+#define BLYNK_DEVICE_NAME "Smart Watering"
+#define BLYNK_AUTH_TOKEN "_g2QJIRzDZm2SR_P08kYgt1Qawb0iFLi"
+
+#define BLYNK_PRINT Serial
+#include <ESP8266WiFi.h> 
+#include <BlynkSimpleEsp8266.h>
+
+#define FAN D7
+#define PUMP D6
+#include <DHT.h>
+
+
+char auth[] = BLYNK_AUTH_TOKEN;
+
+char ssid[] = "Dung Co Hoi";  // type your wifi name
+char pass[] = "22031972";  // type your wifi password
+
+BlynkTimer timer;
+
+
+#define DHTPIN 2 //Connect Out pin to D2 in NODE MCU
+#define DHTTYPE DHT11  
+DHT dht(DHTPIN, DHTTYPE);
+int value,real_value;
+
+void sendSensor()
+{
+
+        
+
+}
+
+
+void setup()
+{   
+  
+  Serial.begin(115200);
+   pinMode(5,INPUT_PULLUP);
+
+Blynk.begin(auth, ssid, pass, "blynk.cloud", 80);
+  dht.begin();
+  timer.setInterval(100L, sendSensor);
+
+ pinMode(FAN, OUTPUT);
+  }
+BLYNK_WRITE(V3)                     //  ham nay duoc goi den khi Widget Vo thay doi trang thai
+{
+   int pinValue = param.asInt();       // gan gia tri cua chan V0 cho bien pinValue
+   
+   
+   if (pinValue == 1) {
+   digitalWrite(PUMP, HIGH);         // khi nhan nut gia tri pinValue bang 1, led sang
+   }
+   
+   else {
+   digitalWrite(PUMP, LOW);        // khi nha nut gia tri pinValue bang 0, led tat
+   }
+
+   
+}
+void loop()
+{
+  Blynk.run();
+  timer.run();
+                             // Tính giá trị phần trăm thực. Chuyển điện thế từ 3.3V ( khô ) thành 3.3V ( ẩm )
+  Serial.print('%');
+  Serial.print(" ");
+  Serial.print("Gia tri analog: ");
+  Serial.print(value);
+  Serial.print(" ");
+  Serial.print("Gia tri digital: ");
+  Serial.println(digitalRead(5));
+  delay(200);
+    for(int i=0;i<=9;i++){
+    real_value+=analogRead(A0);
+  }
+  value=real_value/10;
+  int percent = map(value, 350, 1023, 0, 100);    // Set giá thang giá trị đầu và giá trị cuối để đưa giá trị về thang từ 0-100. 
+                                                  // Cái này sẽ bằng thực nghiệm nhé
+  percent=100-percent; 
+  
+   real_value=0;
+  if (percent<=20)
+  {
+    Serial.println("needs water, send notification");
+  Blynk.logEvent("watering_your_plants","Water your plants");
+  }
+   Blynk.virtualWrite(V2, percent);
+   
+  float h = dht.readHumidity();
+  float t = dht.readTemperature(); // or dht.readTemperature(true) for Fahrenheit
+  if (isnan(h) || isnan(t)) {
+    Serial.println("Failed to read from DHT sensor!");
+    return;
+  }
+  // You can send any value at any time.
+  // Please don't send more that 10 values per second.
+    Blynk.virtualWrite(V0, t);
+    Blynk.virtualWrite(V1, h);
+    
+    Serial.print("Temperature : ");
+    Serial.print(t);
+    Serial.print("Humidity : ");
+    Serial.println(h);
+if (t > 30) {
+   digitalWrite(FAN, HIGH);         // khi nhan nut gia tri pinValue bang 1, led sang
+  Serial.println("Temperature is to high, send notification");
+  Blynk.logEvent("watering_your_plants","Temperature is to high,turn on your fan");
+   }
+   else {
+    digitalWrite(FAN, LOW); 
+   }
+ }

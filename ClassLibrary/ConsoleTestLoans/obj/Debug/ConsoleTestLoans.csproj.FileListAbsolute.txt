@@ -1,0 +1,11 @@
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\bin\Debug\ConsoleTestLoans.exe.config
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\bin\Debug\ConsoleTestLoans.exe
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\bin\Debug\ConsoleTestLoans.pdb
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\bin\Debug\LoansClassLibrary.dll
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\bin\Debug\LoansClassLibrary.pdb
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\obj\Debug\ConsoleTestLoans.csproj.AssemblyReference.cache
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\obj\Debug\ConsoleTestLoans.csproj.SuggestedBindingRedirects.cache
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\obj\Debug\ConsoleTestLoans.csproj.CoreCompileInputs.cache
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\obj\Debug\ConsoleTestLoans.csproj.CopyComplete
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\obj\Debug\ConsoleTestLoans.exe
+F:\SrcC#\Asm2APOK\ConsoleTestLoans\obj\Debug\ConsoleTestLoans.pdb

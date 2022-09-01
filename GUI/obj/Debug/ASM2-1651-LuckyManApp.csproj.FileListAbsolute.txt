@@ -1,0 +1,12 @@
+F:\SrcC#\ASM2-1651-LuckyManApp\bin\Debug\ASM2-1651-LuckyManApp.exe.config
+F:\SrcC#\ASM2-1651-LuckyManApp\bin\Debug\ASM2-1651-LuckyManApp.exe
+F:\SrcC#\ASM2-1651-LuckyManApp\bin\Debug\ASM2-1651-LuckyManApp.pdb
+F:\SrcC#\ASM2-1651-LuckyManApp\obj\Debug\ASM2-1651-LuckyManApp.csproj.AssemblyReference.cache
+F:\SrcC#\ASM2-1651-LuckyManApp\obj\Debug\ASM2-1651-LuckyManApp.csproj.SuggestedBindingRedirects.cache
+F:\SrcC#\ASM2-1651-LuckyManApp\obj\Debug\ASM2_1651_LuckyManApp.Properties.Resources.resources
+F:\SrcC#\ASM2-1651-LuckyManApp\obj\Debug\ASM2-1651-LuckyManApp.csproj.GenerateResource.cache
+F:\SrcC#\ASM2-1651-LuckyManApp\obj\Debug\ASM2-1651-LuckyManApp.csproj.CoreCompileInputs.cache
+F:\SrcC#\ASM2-1651-LuckyManApp\obj\Debug\ASM2-1651-LuckyManApp.exe
+F:\SrcC#\ASM2-1651-LuckyManApp\obj\Debug\ASM2-1651-LuckyManApp.pdb
+F:\SrcC#\ASM2-1651-LuckyManApp\obj\Debug\ASM2_1651_LuckyManApp.MainForm.resources
+F:\SrcC#\ASM2-1651-LuckyManApp\obj\Debug\ASM2_1651_LuckyManApp.OtherForms.BankForm.resources

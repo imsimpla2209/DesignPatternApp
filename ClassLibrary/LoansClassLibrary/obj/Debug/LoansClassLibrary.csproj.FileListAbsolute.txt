@@ -1,0 +1,6 @@
+F:\SrcC#\Asm2APOK\LoansClassLibrary\bin\Debug\LoansClassLibrary.dll
+F:\SrcC#\Asm2APOK\LoansClassLibrary\bin\Debug\LoansClassLibrary.pdb
+F:\SrcC#\Asm2APOK\LoansClassLibrary\obj\Debug\LoansClassLibrary.csproj.AssemblyReference.cache
+F:\SrcC#\Asm2APOK\LoansClassLibrary\obj\Debug\LoansClassLibrary.csproj.CoreCompileInputs.cache
+F:\SrcC#\Asm2APOK\LoansClassLibrary\obj\Debug\LoansClassLibrary.dll
+F:\SrcC#\Asm2APOK\LoansClassLibrary\obj\Debug\LoansClassLibrary.pdb
